@@ -41,3 +41,10 @@ img {
 main {
     text-align: center;
 }
+
+#benefits {
+    display: flexbox;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
