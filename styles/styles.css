@@ -7,21 +7,33 @@ body {
     text-align: center;
 }
 
-img {
-    width: 200px;    
-    margin: 80px; 
-}
-
 #nav-bar {
-    background-color: palegreen;
+    background-color: #d2867a;
     text-align: end;
-    
+    position: fixed;
+    width: 100%;
+    left: 0;
+    top: 0;
+    z-index: 1;
 }
 
 .nav-link {
-    margin-left: 20px;
+    margin-right: 20px;
     font-size: 1.5em;
     line-height: 50px;
+    text-decoration: none;
+    color: white;
+    transition: 0.45s;
+}
+
+.nav-link:hover {
+    font-size: 1.7em;
+    transition: 0.05s;
+}
+
+header img {
+    width: 200px;    
+    margin: 80px; 
 }
 
 #email {
@@ -36,6 +48,16 @@ img {
     width: 150px;
     font-size: 1.5em;
     margin-left: 10px;
+    background-color: #d34c38;
+    color: white;
+    border: 0;
+    box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.2), 0 2px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+#submit:hover {
+    cursor: pointer;
+    border: white solid 1px;
+    
 }
 
 main {
@@ -43,8 +65,103 @@ main {
 }
 
 #benefits {
-    display: flexbox;
+    display: flex;
+    flex-direction: row;
+    margin: 0px auto;
+    justify-content: space-evenly;
+    padding: 50px 0;
+}
+
+div.benefits {
+    width: 360px;
+    align-items: center;
+    display: flex;
     flex-direction: column;
-    margin-top: 100px;
-    margin-bottom: 100px;
+    font-size: 25px;
+    color: #d2b27a;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-top: 80px;
+}
+
+.benefits img {
+    width: 50%;  
+}
+
+.container {
+  padding: 10px 20px;
+}
+
+#warm-drink-icon {
+    margin-right: 20px;
+}
+
+#our-story {
+    color: white;
+    margin: 250px auto;
+    padding: 50px;
+    font-size: 25px;
+    background-color: #d2b27a;
+    height: 450px;
+}
+
+#designs {
+    padding: 50px;
+    font-size: 25px;
+    color: #d2867a;
+}
+
+h1 {
+    padding-bottom: 50px;
+}
+
+#designs-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 280px 280px 280px 280px;
+    grid-template-areas: "left1 middle right" 
+                         "left2 middle right" 
+                         "bottom bottom2 ."
+                         "bottom bottom3 .";
+    justify-content: center;
+    grid-row-gap: 5px;
+}
+
+.designs img {
+    height: 100%;
+    border: black solid 5px;
+    box-sizing: border-box;
+    transition: .5s ease;
+}
+
+.designs img:hover {
+    box-shadow: 0px 0px 10px 5px rgba(0, 0, 0, 0.3);
+    opacity: 0.75;
+}
+
+#designs-container  > div:nth-of-type(1) {
+    grid-area: left1;
+}
+
+#designs-container > div:nth-of-type(2) {
+    grid-area: middle;
+}
+
+#designs-container > div:nth-of-type(3) {
+    grid-area: right;
+}
+
+#designs-container > div:nth-of-type(4) {
+    grid-area: left2;
+}
+
+#designs-container > div:nth-of-type(6) {
+    grid-area: bottom;
+}
+
+#designs-container > div:nth-of-type(5) {
+    grid-area: bottom2;
+}
+
+#designs-container > div:nth-of-type(7) {
+    grid-area: bottom3;
 }
