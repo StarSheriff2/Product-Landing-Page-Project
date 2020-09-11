@@ -115,10 +115,6 @@ div.benefits {
     color: #8D3C30;
 }
 
-h1 {
-    /*! padding-bottom: 50px; */
-}
-
 #designs-container {
     display: grid;
     grid-row-gap: 35px;
