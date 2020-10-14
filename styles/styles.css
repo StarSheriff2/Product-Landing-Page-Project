@@ -16,7 +16,7 @@ body {
     top: 0;
     z-index: 1;
 }
-
+aosdfopaisdf
 .nav-link {
     margin-right: 20px;
     font-size: 1.5em;
@@ -32,8 +32,8 @@ body {
 }
 
 header img {
-    width: 200px;    
-    margin: 80px; 
+    width: 200px;
+    margin: 80px;
 }
 
 #email {
@@ -57,7 +57,7 @@ header img {
 #submit:hover {
     cursor: pointer;
     border: white solid 1px;
-    
+
 }
 
 main {
@@ -86,11 +86,11 @@ div.benefits {
 }
 
 .benefits img {
-    width: 50%;  
+    width: 50%;
 }
 
 .container {
-  padding: 10px 20px;
+    padding: 10px 20px;
 }
 
 #warm-drink-icon {
@@ -119,10 +119,10 @@ div.benefits {
     display: grid;
     grid-row-gap: 35px;
     grid-column-gap: 20px;
-    grid-template-areas: "left1 middle1 right" 
-                         "left2 middle1 right" 
-                         "bottom bottom2 bottom4"
-                         "bottom bottom2 bottom4";
+    grid-template-areas: "left1 middle1 right"
+        "left2 middle1 right"
+        "bottom bottom2 bottom4"
+        "bottom bottom2 bottom4";
 }
 
 .designs img {
@@ -140,11 +140,12 @@ div.benefits {
     align-self: center;
 }
 
-#designs-container  > div:nth-of-type(1) {
+#designs-container>div:nth-of-type(1) {
     grid-area: left1;
 }
 
-#mug1, #mug4 {
+#mug1,
+#mug4 {
     width: 40%;
     height: auto;
 }
@@ -174,27 +175,27 @@ div.benefits {
     height: auto;
 }
 
-#designs-container > div:nth-of-type(2) {
+#designs-container>div:nth-of-type(2) {
     grid-area: middle1;
 }
 
-#designs-container > div:nth-of-type(3) {
+#designs-container>div:nth-of-type(3) {
     grid-area: right;
 }
 
-#designs-container > div:nth-of-type(4) {
+#designs-container>div:nth-of-type(4) {
     grid-area: left2;
 }
 
-#designs-container > div:nth-of-type(6) {
+#designs-container>div:nth-of-type(6) {
     grid-area: bottom;
 }
 
-#designs-container > div:nth-of-type(5) {
+#designs-container>div:nth-of-type(5) {
     grid-area: bottom2;
 }
 
-#designs-container > div:nth-of-type(7) {
+#designs-container>div:nth-of-type(7) {
     grid-area: bottom4;
 }
 
@@ -204,7 +205,7 @@ div.benefits {
         flex-direction: column;
         align-items: center;
     }
-    
+
     #email {
         width: 400px;
         font-size: 1.3em;
@@ -217,53 +218,54 @@ div.benefits {
         margin-left: 0px;
         margin-top: 20px;
     }
-    
+
     #our-story {
         margin: 100px auto;
     }
-    
+
     #designs-container {
         display: grid;
-        grid-template-areas: "top1 top2" 
-                             "top1 top2" 
-                             "middle1 middle2"
-                             "bottom1 bottom2"
-                             "bottom3 bottom3";
+        grid-template-areas: "top1 top2"
+            "top1 top2"
+            "middle1 middle2"
+            "bottom1 bottom2"
+            "bottom3 bottom3";
     }
-    
-    #designs-container  > div:nth-of-type(1) {
+
+    #designs-container>div:nth-of-type(1) {
         grid-area: top1;
     }
 
-    #designs-container > div:nth-of-type(2) {
+    #designs-container>div:nth-of-type(2) {
         grid-area: middle1;
     }
 
-    #designs-container > div:nth-of-type(3) {
+    #designs-container>div:nth-of-type(3) {
         grid-area: middle2;
     }
 
-    #designs-container > div:nth-of-type(4) {
+    #designs-container>div:nth-of-type(4) {
         grid-area: top2;
     }
 
-    #designs-container > div:nth-of-type(6) {
+    #designs-container>div:nth-of-type(6) {
         grid-area: bottom1;
     }
 
-    #designs-container > div:nth-of-type(5) {
+    #designs-container>div:nth-of-type(5) {
         grid-area: bottom2;
     }
 
-    #designs-container > div:nth-of-type(7) {
+    #designs-container>div:nth-of-type(7) {
         grid-area: bottom3;
     }
-    
-    #mug1, #mug4 {
+
+    #mug1,
+    #mug4 {
         width: 60%;
         height: auto;
     }
-    
+
     #mug2 {
         max-width: 90%;
         height: auto;
@@ -288,14 +290,15 @@ div.benefits {
         max-width: 90%;
         height: auto;
     }
-} 
+}
 
 @media (max-width: 700px) {
     #video {
         width: 350px;
     }
-    
-    #mug1, #mug4 {
+
+    #mug1,
+    #mug4 {
         width: 80%;
         height: auto;
     }
