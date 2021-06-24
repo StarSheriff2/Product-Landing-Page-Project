@@ -1,2 +1,2 @@
 # Product-Landing-Page-Project
-This is one of the projects from the FreeCodeCamp Responsive WebDesign course. It was done only using HTML and CSS.
+This is one of the projects from the FreeCodeCamp Responsive WebDesign course. I built with HTML and CSS. It was one of my first web development projects.
